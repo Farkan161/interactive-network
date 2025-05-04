@@ -1,0 +1,34 @@
+{
+  "name": "02-challenge",
+  "version": "1.0.0",
+  "description": "MongoDB is a popular choice for many social networks due to its speed with large amounts of data and flexibility with unstructured data. Over the last part of this course, you'll use several of the technologies that social networking platforms use in their full-stack applications. Because the foundation of these applications is data, it's important that you understand how to build and structure the API first.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p Develop",
+   "start": "npm run build && node Develop/dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node dist/seeds/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farkan161/interactive-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Farkan161/interactive-network/issues"
+  },
+  "homepage": "https://github.com/Farkan161/interactive-network#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.3",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.8.3"
+  }
+}
